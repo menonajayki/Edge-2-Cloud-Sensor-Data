@@ -1,0 +1,3 @@
+C:/Users/Ajay/PycharmProjects/Hands-On/build/CMakeFiles/MultiThreadExample.dir
+C:/Users/Ajay/PycharmProjects/Hands-On/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Ajay/PycharmProjects/Hands-On/build/CMakeFiles/ZERO_CHECK.dir

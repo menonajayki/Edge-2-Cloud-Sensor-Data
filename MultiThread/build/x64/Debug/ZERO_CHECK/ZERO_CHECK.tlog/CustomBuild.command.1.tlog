@@ -1,0 +1,10 @@
+^C:\USERS\AJAY\PYCHARMPROJECTS\HANDS-ON\BUILD\CMAKEFILES\797587CD9B8D314B197A0BA9E5F3E9FF\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Ajay/PycharmProjects/Hands-On -BC:/Users/Ajay/PycharmProjects/Hands-On/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Ajay/PycharmProjects/Hands-On/build/MultiThreadExample.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

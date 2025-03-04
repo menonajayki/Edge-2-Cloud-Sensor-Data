@@ -1,0 +1,10 @@
+^C:\USERS\AJAY\PYCHARMPROJECTS\HANDS-ON\BASIC-ML\BUILD\CMAKEFILES\338EE015DABEE8F5E7BAFD798DFD5244\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Ajay/PycharmProjects/Hands-On/Basic-ML -BC:/Users/Ajay/PycharmProjects/Hands-On/Basic-ML/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Ajay/PycharmProjects/Hands-On/Basic-ML/build/HelloTensorFlowCPP.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

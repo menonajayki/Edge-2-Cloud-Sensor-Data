@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Ajay\PycharmProjects\Hands-On\build\CMakeFiles\797587cd9b8d314b197a0ba9e5f3e9ff\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D0281CC9-B963-3076-A2A2-A93E834BB80E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

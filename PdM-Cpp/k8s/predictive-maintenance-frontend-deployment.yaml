@@ -1,0 +1,45 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pdm-frontend
+  labels:
+    app: pdm-frontend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: pdm-frontend
+  template:
+    metadata:
+      labels:
+        app: pdm-frontend
+    spec:
+      containers:
+        - name: pdm-frontend
+        # repo here
+          image: docker-repo/predictive-maintenance-frontend:latest
+          ports:
+            - containerPort: 3000
+          resources:
+            limits:
+              cpu: "250m"
+              memory: "256Mi"
+            requests:
+              cpu: "100m"
+              memory: "128Mi"
+          env:
+            - name: REACT_APP_BACKEND_URL
+              value: "http://pdm-backend-service:8080"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: pdm-frontend-service
+spec:
+  selector:
+    app: pdm-frontend
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 3000
+  type: LoadBalancer

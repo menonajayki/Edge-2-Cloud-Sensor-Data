@@ -1,0 +1,3 @@
+C:/Users/Ajay/PycharmProjects/Hands-On/Basic-ML/build/CMakeFiles/hello_tf.dir
+C:/Users/Ajay/PycharmProjects/Hands-On/Basic-ML/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Ajay/PycharmProjects/Hands-On/Basic-ML/build/CMakeFiles/ZERO_CHECK.dir
