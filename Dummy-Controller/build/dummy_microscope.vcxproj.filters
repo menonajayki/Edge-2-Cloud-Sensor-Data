@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Ajay\PycharmProjects\Hands-On\Dummy-Controller\bindings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ajay\PycharmProjects\Hands-On\Dummy-Controller\DummyMicroscope.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Ajay\PycharmProjects\Hands-On\Dummy-Controller\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{67979561-FB39-3BE1-855A-0CD59CD1BFD1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,4 @@
+C:/Users/Ajay/PycharmProjects/Hands-On/Dummy-Controller/build/CMakeFiles/dummy_microscope.dir
+C:/Users/Ajay/PycharmProjects/Hands-On/Dummy-Controller/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Ajay/PycharmProjects/Hands-On/Dummy-Controller/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Ajay/PycharmProjects/Hands-On/Dummy-Controller/build/external/pybind11/CMakeFiles/ALL_BUILD.dir

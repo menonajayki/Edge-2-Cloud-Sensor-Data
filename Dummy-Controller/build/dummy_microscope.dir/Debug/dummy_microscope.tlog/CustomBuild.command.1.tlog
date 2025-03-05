@@ -1,0 +1,10 @@
+^C:\USERS\AJAY\PYCHARMPROJECTS\HANDS-ON\DUMMY-CONTROLLER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Ajay/PycharmProjects/Hands-On/Dummy-Controller -BC:/Users/Ajay/PycharmProjects/Hands-On/Dummy-Controller/build --check-stamp-file C:/Users/Ajay/PycharmProjects/Hands-On/Dummy-Controller/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
